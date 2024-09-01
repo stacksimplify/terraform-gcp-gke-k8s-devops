@@ -22,7 +22,7 @@ resource "kubernetes_deployment_v1" "myapp1" {
       }
       spec {
         container {
-          image = "ghcr.io/stacksimplify/kubenginx:1.0.0"
+          image = "ghcr.io/stacksimplify/kubenginx:2.0.0"
           name  = "myapp1-container"
           port {
             container_port = 80
